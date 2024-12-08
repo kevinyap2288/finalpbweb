@@ -1,0 +1,194 @@
+ERROR - 2024-12-07 07:10:45 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-12-07 07:10:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\Downloads\tokomakanan\tokomakanan\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Downloads\tokomakanan\tokomakanan\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Downloads\tokomakanan\tokomakanan\app\Models\M_belajar.php(59): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 D:\Downloads\tokomakanan\tokomakanan\app\Controllers\Home.php(69): App\Models\M_belajar->getWhere('user', Array)
+#4 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#9 {main}
+CRITICAL - 2024-12-07 09:02:34 --> Cannot redeclare App\Models\M_belajar::updateBuktiPembayaran()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-12-07 09:10:15 --> Invalid argument supplied for foreach()
+#0 D:\Downloads\tokomakanan\tokomakanan\app\Views\penerima_order.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Downloads\\to...', 17, Array)
+#1 D:\Downloads\tokomakanan\tokomakanan\system\View\View.php(210): include('D:\\Downloads\\to...')
+#2 D:\Downloads\tokomakanan\tokomakanan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Downloads\tokomakanan\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('penerima_order', Array, true)
+#4 D:\Downloads\tokomakanan\tokomakanan\app\Controllers\Home.php(127): view('penerima_order', Array)
+#5 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->ordercust()
+#6 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#10 {main}
+CRITICAL - 2024-12-07 09:10:58 --> Invalid argument supplied for foreach()
+#0 D:\Downloads\tokomakanan\tokomakanan\app\Views\penerima_order.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Downloads\\to...', 17, Array)
+#1 D:\Downloads\tokomakanan\tokomakanan\system\View\View.php(210): include('D:\\Downloads\\to...')
+#2 D:\Downloads\tokomakanan\tokomakanan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Downloads\tokomakanan\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('penerima_order', Array, true)
+#4 D:\Downloads\tokomakanan\tokomakanan\app\Controllers\Home.php(127): view('penerima_order', Array)
+#5 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->ordercust()
+#6 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#10 {main}
+CRITICAL - 2024-12-07 09:12:18 --> Too few arguments to function App\Controllers\Home::selesai(), 0 passed in D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->selesai()
+#1 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#5 {main}
+CRITICAL - 2024-12-07 09:15:56 --> Too few arguments to function App\Controllers\Home::selesai(), 0 passed in D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->selesai()
+#1 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#5 {main}
+CRITICAL - 2024-12-07 09:17:34 --> Too few arguments to function App\Controllers\Home::selesai(), 0 passed in D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->selesai()
+#1 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#5 {main}
+CRITICAL - 2024-12-07 09:17:53 --> Too few arguments to function App\Controllers\Home::selesai(), 0 passed in D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->selesai()
+#1 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#5 {main}
+CRITICAL - 2024-12-07 09:17:55 --> Too few arguments to function App\Controllers\Home::selesai(), 0 passed in D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->selesai()
+#1 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#5 {main}
+CRITICAL - 2024-12-07 09:18:06 --> Too few arguments to function App\Controllers\Home::selesai(), 0 passed in D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->selesai()
+#1 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#5 {main}
+CRITICAL - 2024-12-07 09:22:15 --> Too few arguments to function App\Controllers\Home::selesai(), 0 passed in D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->selesai()
+#1 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#5 {main}
+CRITICAL - 2024-12-07 09:23:09 --> Too few arguments to function App\Controllers\Home::selesai(), 0 passed in D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->selesai()
+#1 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#5 {main}
+CRITICAL - 2024-12-07 09:24:56 --> Too few arguments to function App\Controllers\Home::selesai(), 0 passed in D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->selesai()
+#1 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#5 {main}
+CRITICAL - 2024-12-07 09:25:00 --> Too few arguments to function App\Controllers\Home::selesai(), 0 passed in D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->selesai()
+#1 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#5 {main}
+CRITICAL - 2024-12-07 09:25:46 --> Too few arguments to function App\Controllers\Home::selesai(), 0 passed in D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->selesai()
+#1 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#5 {main}
+CRITICAL - 2024-12-07 09:29:10 --> Call to a member function isValid() on null
+#0 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->upload_bukti()
+#1 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#5 {main}
+CRITICAL - 2024-12-07 09:29:47 --> Cannot redeclare App\Controllers\Home::upload_bukti()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-12-07 09:30:42 --> Call to a member function isValid() on null
+#0 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->upload_bukti()
+#1 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#5 {main}
+ERROR - 2024-12-07 09:32:10 --> Table 'fast_food.orders' doesn't exist
+ERROR - 2024-12-07 09:32:38 --> Table 'fast_food.orders' doesn't exist
+CRITICAL - 2024-12-07 23:37:12 --> Class 'App\Controllers\M_pesanan' not found
+#0 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->uploadBukti()
+#1 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#5 {main}
+CRITICAL - 2024-12-07 23:37:31 --> syntax error, unexpected '$id_order' (T_VARIABLE)
+#0 D:\Downloads\tokomakanan\tokomakanan\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/uploadBukt...')
+#1 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/uploadBukt...')
+#2 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#6 {main}
+CRITICAL - 2024-12-07 23:38:24 --> Class 'App\Controllers\M_pesanan' not found
+#0 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->uploadBukti()
+#1 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#5 {main}
+ERROR - 2024-12-07 23:40:44 --> Table 'fast_food.orders' doesn't exist
+ERROR - 2024-12-07 23:40:59 --> Table 'fast_food.orders' doesn't exist
+CRITICAL - 2024-12-07 23:41:12 --> Too few arguments to function App\Controllers\Home::selesai(), 0 passed in D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->selesai()
+#1 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#5 {main}
+CRITICAL - 2024-12-07 23:44:01 --> Too few arguments to function App\Controllers\Home::selesai(), 0 passed in D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->selesai()
+#1 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#5 {main}
+ERROR - 2024-12-07 23:45:49 --> Table 'fast_food.orders' doesn't exist
+ERROR - 2024-12-07 23:45:56 --> Table 'fast_food.orders' doesn't exist
+CRITICAL - 2024-12-07 23:54:31 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, array given, called in D:\Downloads\tokomakanan\tokomakanan\app\Models\M_belajar.php on line 15
+#0 D:\Downloads\tokomakanan\tokomakanan\app\Models\M_belajar.php(15): CodeIgniter\Database\BaseBuilder->orderBy(Array, 'desc')
+#1 D:\Downloads\tokomakanan\tokomakanan\app\Controllers\Home.php(125): App\Models\M_belajar->tampil('order', Array)
+#2 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->ordercust()
+#3 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#7 {main}
+CRITICAL - 2024-12-07 23:57:33 --> Call to a member function table() on null
+#0 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->ordercust()
+#1 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#5 {main}

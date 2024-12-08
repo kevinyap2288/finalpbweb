@@ -1,0 +1,24 @@
+CRITICAL - 2024-12-08 07:16:30 --> Cannot redeclare App\Controllers\Home::profile()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-12-08 07:16:44 --> Invalid file: menu_hal.php
+#0 D:\Downloads\tokomakanan\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu_hal.php')
+#1 D:\Downloads\tokomakanan\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('menu_hal', Array, true)
+#2 D:\Downloads\tokomakanan\tokomakanan\app\Controllers\Home.php(916): view('menu_hal')
+#3 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#4 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#8 {main}
+CRITICAL - 2024-12-08 07:20:39 --> Call to undefined method stdClass::md5()
+#0 D:\Downloads\tokomakanan\tokomakanan\system\View\View.php(210): include()
+#1 D:\Downloads\tokomakanan\tokomakanan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Downloads\tokomakanan\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('users-profile', Array, true)
+#3 D:\Downloads\tokomakanan\tokomakanan\app\Controllers\Home.php(917): view('users-profile', Array)
+#4 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#5 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Downloads\tokomakanan\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Downloads\tokomakanan\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Downloads\tokomakanan\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('D:\\Downloads\\to...')
+#9 {main}
